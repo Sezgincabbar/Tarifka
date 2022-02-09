@@ -1,10 +1,10 @@
 # TARIFKA
 
-React Native Uygulama
+React Native Tarifka Uygulaması
 
 # Here images of Application
 
-<img src=".\src\assets\ScreenShots\Screenshot_1644412380.png" width="300px" /> <img src="\src\assets\ScreenShots\Screenshot_1644412386.png" width="300px" />  
+<img src=".\src\assets\ScreenShots\Screenshot_1644412380.png" width="300px" /> <img src=".\src\assets\ScreenShots\Screenshot_1644412386.png" width="300px" />  
 <img src=".\src\assets\ScreenShots\Screenshot_1644412396.png" width="300px" /> <img src=".\src\assets\ScreenShots\Screenshot_1644412401.png" width="300px" />
 
 # Tools & Resources
