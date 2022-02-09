@@ -16,6 +16,7 @@ function Router() {
           name="CategoriesPage"
           component={Categories}
           options={{
+            title: 'Categories',
             headerTitleStyle: {
               color: '#FFA500',
               fontSize: 25,
@@ -28,6 +29,7 @@ function Router() {
           name="MealsPage"
           component={Meals}
           options={{
+            title: 'Meals',
             headerTitleStyle: {
               color: '#FFA500',
               fontSize: 25,
@@ -40,6 +42,7 @@ function Router() {
           name="DetailPage"
           component={Detail}
           options={{
+            title: 'Detail',
             headerTitleStyle: {
               color: '#FFA500',
               fontSize: 25,
