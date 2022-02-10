@@ -7,7 +7,7 @@ import Config from 'react-native-config';
 import styles from './Meals.style';
 import MealCard from '../../components/MealCard/MealCard';
 function Meals({navigation, route}) {
-  const category = route.params;
+  const {category} = route.params;
   const {data, loading, error} = useFetch(`${Config.API_MEALS}${category}`);
 
   const renderMealCard = ({item}) => {
@@ -15,7 +15,7 @@ function Meals({navigation, route}) {
   };
 
   const goToDetail = idMeal => {
-    navigation.navigate('DetailPage', [idMeal]);
+    navigation.navigate('DetailPage', {idMeal});
   };
 
   if (loading) {

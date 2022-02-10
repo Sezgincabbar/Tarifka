@@ -10,7 +10,7 @@ function Categories({navigation}) {
   const {data, error, loading} = useFetch(Config.API_CATEGORY);
 
   const handleGoDetail = category => {
-    navigation.navigate('MealsPage', [category]);
+    navigation.navigate('MealsPage', {category});
   };
 
   const renderCategoryCard = ({item}) => (
